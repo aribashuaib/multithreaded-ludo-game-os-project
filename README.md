@@ -19,9 +19,13 @@ A complete Ludo board game implementation in C++ that demonstrates operating sys
 
 ## Architecture
 Main Process
+
 ├── Master Thread (Game State Manager)
+
 ├── Player Threads (Concurrent Players)
+
 ├── Shared Memory (Board State)
+
 └── Semaphore (Turn Synchronization)
 
 
